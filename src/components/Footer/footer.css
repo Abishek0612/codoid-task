@@ -4,7 +4,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 6rem;
-    overflow: hidden; /* Add this line to fix the background issue */
+    overflow: hidden;
   }
 
 a{
