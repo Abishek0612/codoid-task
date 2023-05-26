@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,82 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: blue;
+}
+
+
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.spin-button-none[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.logo{
+  color: gray;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+ }
+
+
+ 
+ @media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section >h2  {
+    margin-bottom: 2rem;
+  }
+ }
